@@ -12,7 +12,7 @@ public class FtpFileUtil {
     private static final int FTP_PORT = 21;
     //用户名
     private static final String FTP_USERNAME = "dell";
-    //密码
+    //密 码
     private static final String FTP_PASSWORD = "yao123";
     //图片路径
     private static final String FTP_BASEPATH = "/localuser/newjx-ftp/images";

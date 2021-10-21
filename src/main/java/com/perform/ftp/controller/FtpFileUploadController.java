@@ -41,7 +41,7 @@ public class FtpFileUploadController extends ApiController {
     JSONResult upload(@RequestParam List<MultipartFile> files
                      ) throws IOException {
 
-        //FTP 基础服务地址
+        //FTP 基础服务地 址
         String baseUrl = IConstant.FTPURL;
         List<String> urlPicList=new ArrayList<>();
         for (MultipartFile file : files) {
